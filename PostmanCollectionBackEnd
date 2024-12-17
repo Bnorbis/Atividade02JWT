@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "e6351919-04b5-4afc-9aa6-485ed994b323",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27313014",
+		"_collection_link": "https://cloudy-eclipse-969705.postman.co/workspace/New-Team-Workspace~181a0d7c-7a28-4e3b-89cb-3e7b93e1cd5c/collection/27313014-e6351919-04b5-4afc-9aa6-485ed994b323?action=share&source=collection_link&creator=27313014"
+	},
+	"item": [
+		{
+			"name": "gerar Token",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZW5zYWdlbSI6Ik9sw6EgTXVuZG8hIiwiaWF0IjoxNzM0NDcyMDE2LCJleHAiOjE3MzQ0NzU2MTZ9.5XBbU16esAZQ-R9-QJ-xJdvrvVXD52aQLUAj0uhHKDA"
+				}
+			]
+		},
+		{
+			"name": "decodificar Token",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": [
+				{
+					"mensagem": "Projeto JWT!"
+				}
+			]
+		}
+	]
+}
